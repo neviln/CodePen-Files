@@ -13,8 +13,8 @@
  * https://yoksel.github.io/svg-gradient-map
  */
 
-import CssApp from './css-app.mjs';
-import RangeSlider from './range.mjs';
+import CssApp from './css-filter-editor-app.mjs';
+import RangeSlider from './css-filter-editor-range.mjs';
 
 export default class CssFilter extends CssApp {
 	constructor(element, settings, presets) {
